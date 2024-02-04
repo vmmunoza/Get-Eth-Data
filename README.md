@@ -37,7 +37,7 @@ To use a specific sync mode, run Geth with the mode as an argument, e.g., `geth 
 - In your project folder, create a new JavaScript file (e.g., `index.js`).
 - Write the following code to connect to your local Ethereum node:
   ```javascript
-  const Web3 = require('web3');
+  const { Web3 } = require('web3');
   const web3 = new Web3('http://localhost:8545'); // Default HTTP port for local Geth node
   ```
 
