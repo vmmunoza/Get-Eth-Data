@@ -23,6 +23,8 @@ To use a specific sync mode, run Geth with the mode as an argument, e.g., `geth 
 
 ---
 
+First, make sure to check the latest documentation here: https://docs.web3js.org/ 
+
 #### Part 2: Using Web3.js to Extract and Interpret Blockchain Data
 
 **Step 1: Setting Up Web3.js**
