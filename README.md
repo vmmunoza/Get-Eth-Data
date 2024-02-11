@@ -3,7 +3,7 @@
 
 ---
 
-#### Part 1: Running an Ethereum Node with Go-Ethereum (Geth)
+## Part 1: Running an Ethereum Node with Go-Ethereum (Geth)
 
 **Step 1: Installation of Geth**
 1. **Download Geth**: Visit the official Go-Ethereum GitHub repository (https://github.com/ethereum/go-ethereum) and download the latest stable release suitable for your operating system.
@@ -23,11 +23,11 @@ To use a specific sync mode, run Geth with the mode as an argument, e.g., `geth 
 
 *When starting out for the first time, we recommend starting with Light Sync mode.*
 
----
+--- 
 
-First, make sure to check the latest documentation here: https://docs.web3js.org/ 
+## Part 2: Using Web3.js to Extract and Interpret Blockchain Data
 
-#### Part 2: Using Web3.js to Extract and Interpret Blockchain Data
+First, make sure to check the latest documentation here: https://docs.web3js.org/
 
 **Step 1: Setting Up Web3.js**
 1. **Install Node.js**: Download and install Node.js (https://nodejs.org/) on your machine.
@@ -64,7 +64,7 @@ First, make sure to check the latest documentation here: https://docs.web3js.org
 **Step 4: Making Sense of the Data**
 - Each transaction object contains details like `from`, `to`, `value`, `gas`, etc.
 - `value` is listed in Wei. Use `web3.utils.fromWei` to convert it to Ether.
-- Analyze transaction patterns to understand network activity.
+- Analyze simple transaction patterns to understand network activity. You should test your knowledge by observing past data and ask simple questions; the total number of transactions in the last block, or the amount of gas spent in total during for transactions in the past 24 hrs. 
 
 **Step 5: Continuously Monitor New Blocks**
 - Use Web3.js subscriptions to listen for new blocks:
