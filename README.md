@@ -21,6 +21,8 @@
 
 To use a specific sync mode, run Geth with the mode as an argument, e.g., `geth --syncmode "light"`.
 
+*When starting out for the first time, we recommend starting with Light Sync mode.*
+
 ---
 
 First, make sure to check the latest documentation here: https://docs.web3js.org/ 
