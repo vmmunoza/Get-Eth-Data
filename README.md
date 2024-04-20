@@ -66,7 +66,7 @@ First, make sure to check the latest documentation here: https://docs.web3js.org
 - `value` is listed in Wei. Use `web3.utils.fromWei` to convert it to Ether.
 - Analyze simple transaction patterns to understand network activity. You should test your knowledge by observing past data and ask simple questions; the total number of transactions in the last block, or the amount of gas spent in total during for transactions in the past 24 hrs. 
 
-**Step 5: Continuously Monitor New Blocks**
+**Step 5: Monitor New Blocks**
 - Use Web3.js subscriptions to listen for new blocks:
   ```javascript
   web3.eth.subscribe('newBlockHeaders', (error, result) => {
